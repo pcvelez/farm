@@ -246,6 +246,8 @@ address p {
 
 }
 
+/* -------------------------MEDIA QUERY (LARGE)----------------------------- */
+
 @media screen and (min-width: 1280px) {
 
 header {
@@ -287,4 +289,14 @@ h2 {
     float: left;
 }
 
+}
+
+/* -------------------------MEDIA QUERY (X-LARGE)----------------------------- */
+
+@media screen and (min-width: 1440px) {
+
+.fandv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 }
